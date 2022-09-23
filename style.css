@@ -27,6 +27,19 @@ header{
     border-radius: 5px;
     border-width: 1px;
 }
+#eng-btn{
+    background-color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+#fr-btn{
+    background-color: purple;
+    color: white;
+    font-weight: bolder;
+    font-size: 18px;
+    border: none;
+    text-transform: uppercase;
+}
 .postule{
     background-color: #FFEAC5;
     padding: 5em;
@@ -87,6 +100,8 @@ button i{
 
 /*end of postule section */
 
+
+
 .programme{
     height: 250px;
     text-align: center;
@@ -103,6 +118,8 @@ button i{
     color: #555250;
 }
 /*end of section */
+
+
 
 .conditions-section{
     height: 600px;
@@ -137,6 +154,124 @@ button i{
 .conditions-section p{
     padding-top: 2em;
     color: #555250;
-    width: 50%;
+}
+/*end of section */
+
+
+.timer{
+    background-color: #FFEAC5;
+    padding-top: 3em;
+    height: 300px;
+}
+.timer ul{
+    display: flex;
+}
+.timer ul li{
+    list-style-type: none;
+    margin: ;
+}
+.timer-box{
+    left: 50%;
+    border: 1px solid rgb(88, 88, 88);
+    width: 700px;
+    height: 250px;
+}
+
+/*end of section*/
+
+
+
+.form{
+    padding: 4em;
+    background-color: #FFEAC5;
+    height: 800px;
+    justify-content: center;
     text-align: center;
 }
+.form h1{
+    color: purple;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+.form-inputs{
+    padding-top: 2em;
+    padding: 5px;
+}
+.form-inputs input{
+    width: 50%;
+    padding: 10px;
+    margin: 8px;
+    border: none;
+    border-radius: 5px;
+    color: purple;
+    box-shadow: 0px 5px 10px 0px rgba(77, 76, 76, 0.5)
+}
+.form-inputs p{
+    color: purple;
+    font-size: small;
+    padding-bottom: 10px;
+}
+.form-inputs #message{
+    padding: 50px;
+}
+.form p{
+    color: purple;
+    padding-bottom: 1em;
+}
+.form button{
+    background-color: purple;
+    padding: 5px;
+    border: none;
+}
+.form-select-btn{
+    margin: 1em;
+}
+.form-select-btn input{
+    background-color: purple;
+    padding: 5px;
+    border: none;
+}
+#select-btn{
+    width: 250px;
+    padding: 10px;
+    border-radius: 20px;
+    color: #FFEAC5;
+    font-weight: bold;
+}
+#submit-btn{
+    width: 600px;
+    padding: 10px;
+    border-radius: 20px;
+    color: #FFEAC5;
+    font-weight: bold;
+}
+
+/*end of section */
+
+.partners{
+    height: 200px;
+}
+.partners img{
+    width: 150px;
+    justify-content: center;
+    text-align: center;
+    margin-left: 5em;
+    padding: 5px;
+}
+
+/*end of section */
+
+footer{
+    background-color: #FFEAC5;
+    padding-top: 3em;
+    background-size: contain;
+}
+footer p{
+    padding-top: 3em;
+    text-align: center;
+    justify-content: center;
+}
+
+
+
