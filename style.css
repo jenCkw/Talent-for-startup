@@ -1,0 +1,142 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+}
+
+header{
+    background-color: #fff;
+    height: 130px;
+    width: 100%;
+    padding: 15px;
+}
+#logo{
+    padding-left: 5em;
+    width: 300px;
+}
+.header-btns{
+    float: right;
+    padding-right: 15em;
+    padding-top: 2em;
+}
+.header-btn{
+    width: 60px;
+    height: 40px;
+    border-color: blueviolet;
+    border-radius: 5px;
+    border-width: 1px;
+}
+.postule{
+    background-color: #FFEAC5;
+    padding: 5em;
+    display: flex;
+    width: 100%;
+    height: 600px;
+}
+.container{
+    width: 50%;
+    padding-left: 4em;
+}
+.container1{
+    padding-left: 2em;
+}
+
+.color-purple{
+    color: purple;
+    letter-spacing: 2px;
+}
+#Big{
+    font-size: 3em;
+}
+#small{
+    font-size: 30px;
+}
+.color-orange{
+    color: orange;
+    font-size: 25px;
+    font-weight: bold;
+}
+.heading{
+    padding-bottom: 2em;
+}
+.postule-paragraph{
+    color:  #555250;
+    padding-bottom: 2em;
+}
+.postule img{
+    width: 300px;
+    position: absolute;
+    left: 60%;
+}
+.container button{
+    background-color: purple;
+    width: 40%;
+    height: 40px;
+    border-radius: 15px;
+    border: none;
+}
+#postule-btn{
+    color: #FFEAC5;
+    font-weight: bolder;
+    font-size: large;
+}
+button i{
+    padding-left: 1em;
+}
+
+/*end of postule section */
+
+.programme{
+    height: 250px;
+    text-align: center;
+    padding-bottom: 1em;
+}
+.programme h1{
+    padding-top: 1em;
+    padding-bottom: 5px;
+    color: purple;
+    font-size: 3em;
+    font-weight: bolder;
+}
+.programme p{
+    color: #555250;
+}
+/*end of section */
+
+.conditions-section{
+    height: 600px;
+    background-color: #FFEAC5;
+    padding-top: 5em;
+    text-align: center;
+}
+.boxes{
+    display: flex;
+    justify-content: center;
+}
+.box1{
+    
+}
+.boxes img{
+    width: 300px;
+    height: 350px;
+    padding-left: 2em; 
+    padding-bottom: 3em;
+}
+
+.conditions-section button{
+    background-color: purple;
+    width: 30%;
+    height: 35px;
+    border-radius: 15px;
+    text-align: center;
+    border: none;
+    color: #FFEAC5;
+    font-weight: bolder;
+}
+.conditions-section p{
+    padding-top: 2em;
+    color: #555250;
+    width: 50%;
+    text-align: center;
+}
