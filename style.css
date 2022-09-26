@@ -131,9 +131,9 @@ button i{
     display: flex;
     justify-content: center;
 }
-.box1{
+/* .box1{
     
-}
+} */
 .boxes img{
     width: 300px;
     height: 350px;
@@ -157,8 +157,117 @@ button i{
 }
 /*end of section */
 
+/* timer section */
 
 .timer{
+
+    display: flex;
+    justify-content: center; 
+    
+ /* Autor: Jenny    */
+    
+}
+
+.timer_content{
+    border: 2px solid var(--orange);
+    border-radius: 80px 0px 80px 0px;
+    height: 250px;
+    width:70%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: var(--white);
+
+}
+
+.timer_content h3{
+    text-align: center;
+    padding: 24px 24px 0px 0px;
+    font-size: 32px;
+    font-family: sans-serif;
+
+}
+.timer_bar{
+    width: 180px; 
+    transform: rotate(-0.75turn);
+    margin-left: -80px; 
+    margin-bottom: -149px;  
+}
+.cpt_rebours{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.cpt_rebours div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.cpt_rebours span{
+    color: var(--violet);
+    font-size: 72px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.countDown{
+    width: 18%;
+}
+.deux-point{
+    width: 2%;
+    margin: 0px 10px 0px 10px;
+    font-size: 72px;
+    color: var(--violet);
+    margin-top: -32px;
+}
+
+/* Auteur: Jenny */
+/* .form{
+    margin-top: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.form .input_el{
+    height: 40px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px 0px;
+}
+.form input{
+    height: 100%;
+    width: 100%;
+    padding: 5px;
+
+}
+.form input,textarea{
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+.form button{
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.form h2{
+    color: var(--violet);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+.notif{
+    font-size: 1rem;
+    color: var(--violet);
+    display: none;
+} */
+
+
+/* .timer{
     background-color: #FFEAC5;
     padding-top: 3em;
     height: 300px;
@@ -175,7 +284,7 @@ button i{
     border: 1px solid rgb(88, 88, 88);
     width: 700px;
     height: 250px;
-}
+} */
 
 /*end of section*/
 
@@ -245,9 +354,9 @@ button i{
     border-radius: 20px;
     color: #FFEAC5;
     font-weight: bold;
-}
+} */
 
-/*end of section */
+/*end of section
 
 .partners{
     height: 200px;

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
     <title>Talent4Africa</title>
 </head>
@@ -14,20 +15,22 @@
     <header>
        <img  id="logo" src="images/logo talent africa challenge Finis-01.png"  alt="">
        <div class="header-btns">
-       <button class="header-btn" id="eng-btn">eng</button>
-        <button class="header-btn" id="fr-btn">fr</button>
+       <button class="header-btn" id="eng-btn" language="english">eng</button>
+        <button class="header-btn" id="fr-btn" language="francais">fr</button>
     </div>
     </header>
 
     <section class="postule">
         <div class="container" id="container1">
         <div class="heading">
-            <h1 class="color-purple" id="Big">Booster<p class="color-purple" id="small">votre Start-Up avec</h1></p><p class="color-orange" id="">une solution numerique offerte.</p>
+            <h1 class="color-purple" id="Big">Boostez votre Start-up avec  <span class="color-orange" id="small">une solution numérique offerte</span></h1>
+            <!-- <h1 p class="color-purple" id="small">votre Start-Up avec</p></h1><p class="color-orange" id="">une solution numerique offerte.</p> -->
         </div>
-            <p class="postule-paragraph">Vous etes Start-up, particpez a Talent for Startups Challenge by Digital Africa et beneficiez d'un accompagnement gratuit pour 
-                la realisation de vos projets numerique(Website,Application mobile,logiciel de gestion..)par apprenants de Kinshasa Digital Academy.
+            <p class="postule-paragraph" id="postule-accrohe">Vous êtes une Start-up, participez à Talent Startups challenge by DigitalAfrica et bénéficiez d'un accompagnement gratuit pour la réalisation de vos projets numériques(Website, Application mobile, logiciel de gestion...) par les apprenants de Kinshasa Digital Academy 
             </p>
-            <button class="" id="postule-btn">Je Postule<i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
+
+    <a href="#postule-btn"><button class="">Je Postule<i class="fa fa-long-arrow-right" aria-hidden="true"></i></button></a>
+            
         </div>
         <div class="container" id="container2">
             <img src="images/bg_main_section.png" alt="" >
@@ -58,20 +61,37 @@
         </p>
     </section>
 
-    <section class="timer">
-        <div class="timer-box">
-            <h2>Fin D'inscriptions</h2>
-            <ul>
-                <li>Jours</li>
-                <li>Heures</li>
-                <li>Minutes</li>
-                <li>Secondes</li>
-            </ul>
-        </div>
-       
-    </section>
+     <!-- Autor:Jenny -->
 
-    <section class="form">
+    <section class="timer">
+        <div class="timer_content">
+            <img src="images/motif2_modif.png" alt="barnière" class="timer_bar">
+            <h3>Fin des inscriptions dans</h3>
+            <div id="timer-content" class="cpt_rebours">
+                <div class="countDown">
+                    <span class="day" id="day"></span>
+                    <div class="smalltext">JOURS</div>
+                </div>
+                <div class="deux-point">:</div>
+                <div class="countDown">
+                    <span class="hour" id="hour"></span>
+                    <div class="smalltext">HEURES</div>
+                </div>
+                <div class="deux-point">:</div>
+                <div class="countDown">
+                    <span class="minute" id="minute"></span>
+                    <div class="smalltext">MINUTES</div>
+                </div>
+                <div class="deux-point">:</div>
+                <div class="countDown">
+                    <span class="second" id="second"></span>
+                    <div class="smalltext">SECONDES</div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="form" id="postule-btn">
         <h1>Remplissez Le Formulaire</h1>
         <div class="form-inputs">
         <input type="text" placeholder="Nom*">
@@ -87,7 +107,35 @@
         <div>
             <button id="submit-btn">Soumettre ma candidature</button>
         </div>
-    </section>
+    </section> -->
+
+
+    <!-- Autor: jenny
+    <section class="form">
+        <h2>Remplissez le formulaire</h2>
+        <form action="https://api.staticforms.xyz/submit" method="post">
+            <input type="hidden" name="accessKey" value="cc8620b3-3cbc-477e-8715-75313b833c9e">
+            <div class="input_el">
+                <input type="text" placeholder="Noms*" name="name">
+            </div>
+            <div class="input_el">
+                <input type="email" placeholder="Email*" name="email">
+            </div>
+            <div class="input_el">
+                <input type="text" placeholder="Nom de votre startup*" name="entrep">
+            </div>
+            <div class="textarea_el">
+                <label for="">Décrivez votre solution en quelques lignes*</label>
+                <textarea name="message" id="" cols="30" rows="10"></textarea>
+            </div>
+            <div class="file_el">
+                <label for="">Pièces jointes*</label>
+                <input type="file" name="" id="">
+            </div>
+            <p class="notif"></p>
+            <button class="btn">Soumettre ma candidature</button>
+        </form>
+    </section> -->
 
     <section class="partners">
         <img src="images/61e4d3e3d3b10d8396c12f8c_footer-logos-a.png" alt="">
@@ -98,11 +146,12 @@
         </section>
    
         <footer>
-          <p>Developpe par Digital Africa partenariat avec Make-It in Africa, la Deutsche Gesellschaur
-            internationale Zusammenarbelt(GIZ) GmbH, et le Ministre pour la Cooperation Economique et le Developpement(), Talent 4 Startups est un programme pilote de bourse 
-            d-etudes pour les metiers du numerique.
+          <p class="paterns">Développé par Digital Africa en partenariat avec Make-IT in  Africa, La Deutsche Gesellschaft fur Internationale Zusammenabeit (GIz) GmbH, et le Ministère pour la Coopération Economique et le Développement (BMZ), Talent 4 Startups est un programme pilote de bourses d'études pour les métiers du numérique.
           </p>
           <img src="images/motif1.png" alt="">
         </footer>
+        <script src="./langues.js"></script>
+         <script src="./countdown.js"></script>
+         <script src="./form.js"></script>
 </body>
 </html>
