@@ -138,7 +138,6 @@ button i{
 .box:hover, .back{
     transform: rotateY(180deg);
     cursor: pointer;
-    background-image: url(images/Group\ 1\ \(1\).png)
 }
 .box{
     transition: 0.7s;
