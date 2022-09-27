@@ -324,6 +324,9 @@ button i{
 
 /*end of section*/
 
+.dowload-text {
+    text-decoration: none;
+}
 
 
 .form{
@@ -516,5 +519,3 @@ footer p{
         padding: 2em;
     }
  }
-
-

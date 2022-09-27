@@ -1,35 +1,3 @@
-// let id = (id) => document.getElementById(id);
-// let classes = (classes) => document.getElementsByClassName(classes);
-
-
-// let name = id("name"),
-// email = id("email"),
-// startUp = id("start-up"),
-
-// errorMsg = classes("error")
-// const validRegex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
-
-// form.addEventListener("submit", (e) =>{
-//     e.preventDefault();
-
-//     engine(name, 0, "Name cannot be blank");
-//     engine(email, 1, "Email cannot be blank");
-//     engine(startUp, 2, "Name cannot be blank")
-   
-// })
-
-// let engine = (id, serial, message) =>{
-//     if(id.value.trim() === ""){
-//         errorMsg[serial].innerHTML = message;
-//         id.style.border = "2px solid red"
-//     }
-//     else{
-//         errorMsg[serial].innerHTML = "";
-//         id.style.border = "2px solid green";
-//     }
-
-// }
-
 
 let form = document.querySelector('form');
 let inpt_name = document.querySelector('[name="name"]')
